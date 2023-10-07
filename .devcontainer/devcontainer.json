@@ -1,0 +1,16 @@
+{
+    "name": "go-devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {}
+    },
+    "runArgs": [],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "golang.Go"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
